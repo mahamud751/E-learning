@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Data Science Fundamentals with Python and SQL",
+        "price": 200,
+        "instructions": "Python programming basics including data structures, logic, working with files, invoking APIs, and libraries such as Pandas and Numpy",
+        "img": "https://www.cmarix.com/blog/wp-content/uploads/2019/11/Java-vs-Python_-Who-is-Winning-the-Coding-Battle_.jpg"
+    },
+    {
+        "name": "Digital Product Management",
+        "price": 200,
+        "instructions": "This Specialization is intended for both current and new product managers working in digital who want to apply a portfolio of modern practices to developing their products and teams",
+        "img": "https://www.softpal.com/portals/97/images/products_master_page/product.jpg"
+    },
+    {
+        "name": "Google UX / UI Design",
+        "price": 200,
+        "instructions": "Computer science engineers are involved in many aspects of computing, from the design of individual microprocessors, personal computers.",
+        "img": "https://cdn.dribbble.com/users/844541/screenshots/9238424/illustration-02_4x.png"
+    },
+    {
+        "name": "Learn English: Advanced Grammar and Punctuation Specialization",
+        "price": 200,
+        "instructions": "This specialization follows our Learn English: Intermediate Grammar specialization and includes more advanced grammar concepts such as noun clauses and conditionals.",
+        "img": "https://learnenglishbyonline.com/public/images/course/20210116174722.jpg"
+    }
+]

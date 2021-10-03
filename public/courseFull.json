@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Data Science Fundamentals with Python and SQL",
+        "price": 200,
+        "instructions": "Python programming basics including data structures, logic, working with files, invoking APIs, and libraries such as Pandas and Numpy",
+        "img": "https://www.cmarix.com/blog/wp-content/uploads/2019/11/Java-vs-Python_-Who-is-Winning-the-Coding-Battle_.jpg"
+    },
+    {
+        "name": "Digital Product Management",
+        "price": 200,
+        "instructions": "This Specialization is intended for both current and new product managers working in digital who want to apply a portfolio of modern practices to developing their products and teams",
+        "img": "https://www.softpal.com/portals/97/images/products_master_page/product.jpg"
+    },
+    {
+        "name": "Google UX / UI Design",
+        "price": 200,
+        "instructions": "Computer science engineers are involved in many aspects of computing, from the design of individual microprocessors, personal computers.",
+        "img": "https://cdn.dribbble.com/users/844541/screenshots/9238424/illustration-02_4x.png"
+    },
+    {
+        "name": "Learn English: Advanced Grammar and Punctuation Specialization",
+        "price": 200,
+        "instructions": "This specialization follows our Learn English: Intermediate Grammar specialization and includes more advanced grammar concepts such as noun clauses and conditionals.",
+        "img": "https://learnenglishbyonline.com/public/images/course/20210116174722.jpg"
+    },
+    {
+        "name": "IT Fundamentals for Cybersecurity Specialization",
+        "price": 200,
+        "instructions": "here are a growing number of exciting, well-paying jobs in today’s security industry that do not require a traditional college degree.",
+        "img": "https://www.pngitem.com/pimgs/m/620-6206153_whattheydo-security-engineer-hd-png-download.png"
+    },
+    {
+        "name": "AI in Healthcare Specialization",
+        "price": 200,
+        "instructions": "Artificial intelligence (AI) has transformed industries around the world, and has the potential to radically alter the field of healthcare. Imagine being able to analyze data on patient visits to the clinic, medications prescribed.",
+        "img": "https://dosily.com/wp-content/uploads/2021/07/Awareness-on-Healthcare-Quality.jpg"
+    },
+    {
+        "name": "Human Resources Analytics",
+        "price": 200,
+        "instructions": " Harvesting the right kind of data requires that HR teams possess strong analytical skills; high-performing HR teams know that their function is to leverage data as a “decision science” by identifying metrics and data sources that deliver organizational insights.",
+        "img": "https://hr.university/wp-content/uploads/2020/03/Human-Resources-HR-Resume-Examples-to-Inspire-You.jpg"
+    },
+    {
+        "name": "Blockchain Specialization",
+        "price": 200,
+        "instructions": "This specialization introduces blockchain, a revolutionary technology that enables peer-to-peer transfer of digital assets without any intermediaries, and is predicted to be just as impactful as the Internet. ",
+        "img": "https://c8.alamy.com/comp/2C7TBG2/isometric-blockchain-crypto-technology-vector-illustration-3d-cartoon-tiny-people-work-with-blockchain-make-money-cryptocurrency-analytics-trade-or-exchange-bitcoin-concept-interface-website-design-2C7TBG2.jpg"
+    },
+    {
+        "name": "C and C++ Specialization",
+        "price": 200,
+        "instructions": "Beginner to Programmer — Learn to Code in C & C++. Gain a deep understanding of computer programming by learning to code, debug, and solve complex problems with C and C++.",
+        "img": "https://www.interviewbit.com/blog/wp-content/uploads/2021/09/C-Vs-C.jpg"
+    }
+]

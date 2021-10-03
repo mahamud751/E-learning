@@ -1,0 +1,10 @@
+.home{
+    background-color: rgb(249 249 249);
+}
+.btn-explore{
+    background: rgb(114, 219, 214);
+    border: 1px solid white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+}
