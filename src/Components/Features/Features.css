@@ -1,0 +1,7 @@
+.faq{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.faqText{
+    padding: 20px;
+}

@@ -3,10 +3,11 @@
     background-color: none;
 }
 .card{
-    width: 600px;
-    height: 600px;
+   
+    height: 750px;
     padding: 20px;
     background: lightcyan;
     border: 2px solid lightblue;
     border-radius: 50px;
+    color: black;
 }

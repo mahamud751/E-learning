@@ -27,7 +27,7 @@ const Home = () => {
                         ></Course>)
                     }
                 </Row>
-                <Link to="./service">
+                <Link to="./courses">
                     <button className="btn-explore">Explore More Courses</button>
                 </Link>
             </div>
