@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { Accordion, Row } from 'react-bootstrap';
+import { Accordion, Card, Col, ListGroup, Row } from 'react-bootstrap';
 import Members from '../Members/Members';
 import './Features.css'
 import img from '../../22.png'
 import image from '../../21.png'
+import Rating from 'react-rating';
 
 
 const Features = () => {
@@ -27,6 +28,8 @@ const Features = () => {
                         }
                     </Row>
                 </div>
+
+
                 <div className="mt-5 p-5">
                     <h1 className="bg-dark text-white p-3"> Do You Have Questions ?
                         We'll help you to grow your career and growth.</h1>
@@ -61,9 +64,56 @@ const Features = () => {
                             <img src={img} alt="" />
                         </div>
                     </div>
+                </div>
+                <div className="about-details">
+                    <Card style={{ width: '36rem' }}>
+                        <Card.Header className="text-center">Some Student Review</Card.Header>
+                        <ListGroup variant="flush">
 
+                            <ListGroup.Item>
+                                <div>
+                                    <img className="sImg" src="https://images.unsplash.com/photo-1611175140153-bfd26338ff0d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80" alt="" />
+                                </div>
+                                This class was excellent--where have you been all my life? The instructor was incredibly knowledgeable and articulate.Thank you.
+                                <Rating
+                                    initialRating={4}
+                                    emptySymbol="far fa-star"
+                                    fullSymbol="fas fa-star icon"
+                                    readonly
+                                ></Rating>
+                            </ListGroup.Item>
+                            <br />
+                            <ListGroup.Item>
+                                <div>
+                                    <img className="sImg" src="https://images.unsplash.com/photo-1610476650745-58700c3defa5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" alt="" />
+                                </div>
+                                F"I've never completed a course like this before (remote instruction) and I cannot express how great the instructor was and the overall content of the material.I will be looking into taking more of these classes through omy in the near future. Thank you!"
+                                <Rating
+                                    initialRating={3}
+                                    emptySymbol="far fa-star"
+                                    fullSymbol="fas fa-star icon"
+                                    readonly
+                                ></Rating>
+                            </ListGroup.Item>
+                            <br />
+                            <ListGroup.Item>
+                                <div>
+                                    <img className="sImg" src="https://images.unsplash.com/photo-1614273867161-22da2cd8ab39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                                </div>
+                                I never took a remote training before but I will highly recommend this type of training. It felt relaxed and at a nice pace that I feel I came away with lots to use at my workplace. Thank you!"
+                                <Rating
+                                    initialRating={5}
+                                    emptySymbol="far fa-star"
+                                    fullSymbol="fas fa-star icon"
+                                    readonly
+                                ></Rating>
+                            </ListGroup.Item>
+                        </ListGroup>
+                    </Card>
                 </div>
             </div>
+
+
         </div>
     );
 };
