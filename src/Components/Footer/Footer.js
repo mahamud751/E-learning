@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FormControl, InputGroup } from 'react-bootstrap';
 import Button from '@restart/ui/esm/Button';
-import img from '../../logo2.png'
+import img from '../../logo12.png'
 const Footer = () => {
     return (
         <div className="footer-main text-start p-5 mt-5">
