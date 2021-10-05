@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Accordion, Card, Col, ListGroup, Row } from 'react-bootstrap';
+import { Accordion, Card, ListGroup, Row } from 'react-bootstrap';
 import Members from '../Members/Members';
 import './Features.css'
 import img from '../../22.png'
@@ -14,6 +14,8 @@ const Features = () => {
             .then(res => res.json())
             .then(data => setMembersId(data))
     }, [])
+
+
     return (
         <div>
             <div className="mt-5">
@@ -23,6 +25,7 @@ const Features = () => {
                     <Row xs={1} md={4} className="g-4 p-4">
                         {
                             membersId.map(member => <Members
+                                key={member.name}
                                 member={member}
                             ></Members>)
                         }
@@ -65,6 +68,8 @@ const Features = () => {
                         </div>
                     </div>
                 </div>
+
+
                 <div className="about-details">
                     <Card style={{ width: '36rem' }}>
                         <Card.Header className="text-center">Some Student Review</Card.Header>

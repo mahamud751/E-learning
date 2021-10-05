@@ -22,6 +22,7 @@ const ServiceCourses = () => {
                     <Row xs={1} md={3} className="g-4 p-4">
                         {
                             fullCourses.map(course => <FullCourse
+                                key={course.name}
                                 course={course}
                             ></FullCourse>)
                         }

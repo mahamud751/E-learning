@@ -16,9 +16,9 @@ const Course = (props) => {
                             <Card.Text>
                                 {instructions}
                             </Card.Text>
-                            <small className="text-dark"><i class="fas fa-clock"></i>  {timeHour} hr {timeMin} min </small>
+                            <small className="text-dark"><i className="fas fa-clock"></i>  {timeHour} hr {timeMin} min </small>
                             <br />
-                            <button className="btn-explore mt-2"> <i class="fas fa-unlock"></i>  ENROLL</button>
+                            <button className="btn-explore mt-2"> <i className="fas fa-unlock"></i>  ENROLL</button>
                         </Card.Body>
                     </Card>
                 </Col>

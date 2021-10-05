@@ -20,12 +20,12 @@ const Footer = () => {
                 </div>
                 <div className="mt-5 text-center">
                     <h5>SOCIAL</h5>
-                    <i class="fab fa-facebook fa-2x p-3"></i>
-                    <i class="fab fa-facebook-messenger fa-2x p-2"></i>
-                    <i class="fab fa-google-plus fa-2x p-2"></i>
-                    <i class="fab fa-skype fa-2x p-2"></i>
-                    <i class="fab fa-twitter fa-2x p-2"></i>
-                    <i class="fab fa-linkedin fa-2x p-2"></i>
+                    <i className="fab fa-facebook fa-2x p-3"></i>
+                    <i className="fab fa-facebook-messenger fa-2x p-2"></i>
+                    <i className="fab fa-google-plus fa-2x p-2"></i>
+                    <i className="fab fa-skype fa-2x p-2"></i>
+                    <i className="fab fa-twitter fa-2x p-2"></i>
+                    <i className="fab fa-linkedin fa-2x p-2"></i>
 
                 </div>
                 <div className="mt-5">

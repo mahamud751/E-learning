@@ -23,6 +23,7 @@ const Home = () => {
                 <Row xs={1} md={2} className="g-4">
                     {
                         courses.map(course => <Course
+                            key={course.name}
                             course={course}
                         ></Course>)
                     }
